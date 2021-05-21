@@ -9,7 +9,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	max-width: 1200px;
+	
 	width: 90%;
 }
 
@@ -49,13 +49,12 @@ p {
 /*The widths are in a percentage!*/
 header {
 	/*height: 110px;*/
-	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	max-width: 1200px;
+	
 	width: 90%;
 }
 
@@ -64,6 +63,7 @@ header h1 {
 	margin: 0;
 	padding: 38px 0;
 	border-bottom: 3px solid #77a466;
+	padding-left: .3em;
 }
 header h1 span {
 	color: #77a466;
@@ -96,8 +96,10 @@ header nav ul li a{
 }
 
 /*The widths are in a percentage!*/
-.top-section,
-.bottom-section {
+
+
+
+.top-section {
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -105,17 +107,30 @@ header nav ul li a{
 	max-width: 1200px;
 	width: 90%;
 	flex-flow: row wrap;
-	/*clear: both;*/
+}
+
+.bottom-section {
+	margin: 0 auto;
+	display: flex;
+	display: inline-block;
 }
 
 .main-image {
 	/*height: auto;*/
 	/*float: left;*/
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 2.3125em;
 }
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
+	border-top: 3px solid #77a466;
+	display: block;
+	width: 350px;
+	
+	
 }
 
 .main-title {
@@ -138,13 +153,7 @@ header nav ul li a{
 .section-three {
 	/*height: auto;*/
 	/*float: left;*/
-	border-top: 1px solid #eee;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-	width: 90%;
-	max-width: 1200px;
+	border-top: 1px solid #eee;	
 }
 
 
@@ -157,12 +166,12 @@ header nav ul li a{
 	/*border-left: 1px solid #eee;*/
 	/*border-right: 1px solid #eee;*/
 }
-
+/*
 .section-two h3,
 .section-three h3 {
 	padding: 10px 30px;
 }
-
+*/
 .menu {
 	list-style: none;
 	padding: 0;
