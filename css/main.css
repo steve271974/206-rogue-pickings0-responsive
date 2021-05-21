@@ -9,7 +9,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	
+	max-width: 1200px;
 	width: 90%;
 }
 
@@ -100,11 +100,11 @@ header nav ul li a{
 
 
 .top-section {
-	margin: 0 auto;
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	max-width: 1200px;
+	
 	width: 90%;
 	flex-flow: row wrap;
 }
