@@ -34,16 +34,16 @@ h1 {
 	font-size: 1.8em;
 }
 h2 {
-	font-size: 18px;
+	font-size: 0.9em;
 }
 h3 {
-	font-size: 12px;
+	font-size: 0.75em;
 }
 
 p {
 	font-size: 14px;
 	line-height: 21px;
-    padding: 0 30px;
+    /*padding: 0 30px;*/
 }
 
 /*The widths are in a percentage!*/
@@ -53,8 +53,7 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap;
-	
+	flex-flow: column wrap;
 	width: 90%;
 }
 
@@ -104,33 +103,26 @@ header nav ul li a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 	width: 90%;
 	flex-flow: row wrap;
 }
 
 .bottom-section {
 	margin: 0 auto;
-	display: flex;
 	display: inline-block;
 }
 
 .main-image {
 	/*height: auto;*/
 	/*float: left;*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-left: 2.3125em;
+	/*margin-left: 2em;*/
 }
 .main-image img {
-	width: 100%;
+	width: 110%;
 	border-bottom: 3px solid #77a466;
 	border-top: 3px solid #77a466;
-	display: block;
-	width: 350px;
-	
-	
+
+	/*display: block;*/	
 }
 
 .main-title {
